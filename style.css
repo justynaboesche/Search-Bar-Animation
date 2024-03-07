@@ -42,6 +42,7 @@ body {
 
 .search-box {
 	position: relative;
+	align-self: stretch;
 }
 
 .search-input {
@@ -52,6 +53,7 @@ body {
 	color: #333;
 	font-size: 16px;
 	transform: translateX(0) scaleX(0);
+	transform-origin: right;
 	transition: transform 0.3s;
 }
 
